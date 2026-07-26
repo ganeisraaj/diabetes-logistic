@@ -38,14 +38,6 @@ Dieses Projekt wendet binäre logistische Regression an, um die Diabetesdiagnose
 
 ---
 
-├── report.pdf        # English-language report
-├── analysis.R        # R script
-└── data/
-    └── pima.csv
-```
-
----
-
 ## Software
 
 R 4.5.x · `tidyverse` · `ggplot2` · `patchwork` · `car` · `GGally` · `detectseparation` · `pROC`

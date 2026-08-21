@@ -12,7 +12,7 @@ def load_and_train():
         "pregnancies", "glucose", "blood_pressure", "skin_thickness",
         "insulin", "bmi", "diabetes_pedigree", "age", "outcome"
     ]
-    df = pd.read_csv("diabetes.csv", header=0, names=cols, skiprows=1)
+    df = pd.read_csv("streamlit/diabetes.csv", header=0, names=cols, skiprows=1)
 
     #replace impossible zeros with NaN
     zero_cols = ["glucose", "blood_pressure", "skin_thickness", "insulin", "bmi"]
